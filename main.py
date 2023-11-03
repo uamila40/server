@@ -26,6 +26,3 @@ def reqest():
             title = str("Unable to retrieve the video title.")
 
     return title
-
-if __name__ == "__main__":
-    app.run(debug=False, host="0.0.0.0")
